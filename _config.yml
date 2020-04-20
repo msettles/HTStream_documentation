@@ -1,6 +1,6 @@
 # Site settings
 title: HTStream
 description: A high throughput sequence read  toolset using a streaming approach facilitated by Linux pipes
-github: https://github.com/ibest/HTStream
+github: ibest/HTStream
 
 remote_theme: data4development/dataworkbench-jekyll-theme
