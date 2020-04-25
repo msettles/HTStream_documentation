@@ -6,7 +6,7 @@ suborder: 0
 
 # Streamed preprocessing of sequence data
 
-HTStream is a preprocessing pipeline for high throughput sequencing data (ex. Illumina). A Fast C++ implementation, designed with discreet applications that can be pipelined together using standard unix piping.
+HTStream is a suite of preprocessing applications for high throughput sequencing data (ex. Illumina). A Fast C++ implementation, designed with discreet functionality that can be pipelined together using standard unix piping.
 
 Benefits Include:
   * No intermediate files, reducing storage footprint.
@@ -48,7 +48,7 @@ PCA/MDS plots of the preprocessing summary are a great way to look for technical
 
 ## HTStream applications
 
-We hope in the long run to include any and all needed preprocessing routines. Includes:
+HTStream includes the following applications:
 
 [hts_AdapterTrimmer](./hts_AdapterTrimmer): Identify and remove adapter sequences.  
 [hts_LengthFilter](./hts_LengthFilter): Remove reads outside of min and/or max length.  
@@ -61,3 +61,13 @@ We hope in the long run to include any and all needed preprocessing routines. In
 [hts_Primers](hts_Primers) - Identify and optionally remove 5' and/or 3' primer sequence.  
 [hts_QWindowTrim](hts_QWindowTrim) - 5' and/or 3' quality score base trimming using windows.  
 [hts_Stats](hts_Stats) - Compute read stats.  
+
+We hope in the long run to include any and all needed preprocessing routines.
+
+## Contributing
+
+First please read [code of conduct](https://github.com/ibest/HTStream/blob/master/CODE_OF_CONDUCT.md).
+
+If you encounter any bugs or have suggestions for improvement, please post them to [issues](https://github.com/ibest/HTStream/issues).
+
+We'd love to accept code and/or application additions! If your interested in contributing please read our [contributing guidelines](https://github.com/ibest/HTStream/blob/master/CONTRIBUTING.md).
