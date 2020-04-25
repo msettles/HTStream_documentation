@@ -58,6 +58,6 @@ We hope in the long run to include any and all needed preprocessing routines. In
 [hts_SuperDeduper](./hts_SuperDeduper): Identify and remove PCR duplicates.  
 [hts_CutTrim](hts_CutTrim): Discreet 5' and/or 3' basepair trimming.  
 [hts_Overlapper](hts_Overlapper): Overlap paired end reads, removing adapters when present.  
-[hts_Primers](hts_Primer) - Identify and optionally remove 5' and/or 3' primer sequence.  
+[hts_Primers](hts_Primers) - Identify and optionally remove 5' and/or 3' primer sequence.  
 [hts_QWindowTrim](hts_QWindowTrim) - 5' and/or 3' quality score base trimming using windows.  
 [hts_Stats](hts_Stats) - Compute read stats.  

@@ -18,7 +18,7 @@
           <a class="list-group-item" href="{{ node.external_url }}">{{ node.title }}</a>
         {% elsif page.url == node.url %}
           <a class="list-group-item list-group-item-success" href='{{ node.url | relative_url }}'>{{node.title}}</a>
-          {% include toc.html html=content %}
+          {% include toc.html html=content h_min=2 h_max=2 %}
         {% elsif node_url_lastchar == '/' %}
           <a class="list-group-item active" href='{{ node.url | relative_url }}'>{{node.title}}</a>
         {% else %}
