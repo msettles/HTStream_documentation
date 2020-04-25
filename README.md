@@ -2,11 +2,12 @@
 
 
 <a href=""><img src="https://github.com/ibest/HTStream/workflows/C++%20CI/badge.svg"></a>&nbsp;
+<a href="https://github.com/ibest/HTStream/releases/latest"><img src="https://img.shields.io/github/v/release/ibest/HTStream"></a>
+
 <a href="https://github.com/ibest/HTStream/blob/master/LICENSE"><img src="https://img.shields.io/github/license/ibest/HTStream?label=License"></a>&nbsp;
 <a href="https://github.com/ibest/HTStream/code_of_conduct.html"><img src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg"></a>
 
 
-<a href="https://github.com/ibest/HTStream/releases/latest"><img src="https://img.shields.io/github/v/release/ibest/HTStream"></a>
 
 HTStream is a suite of preprocessing applications for high throughput sequencing data (ex. Illumina). A Fast C++ implementation, designed with discreet functionality that can be pipelined together using standard unix piping.
 
