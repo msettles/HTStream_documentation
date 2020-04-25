@@ -1,6 +1,13 @@
 # Site settings
 title: HTStream
+#email: rolf@data4development.nl
 description: A high throughput sequence read  toolset using a streaming approach facilitated by Linux pipes
+#brand: DataWorkbench
 github: ibest/HTStream
+
+defaults:
+  -
+    values:
+      layout: "default"
 
 remote_theme: data4development/dataworkbench-jekyll-theme

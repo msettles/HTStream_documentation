@@ -1,0 +1,21 @@
+
+// Flatly colour scheme
+
+$cs-primary: #2c3e50; // "Block" dark blue
+$cs-success: #18bc9c; // "lake water" green
+$cs-info: #3498db; // "cyanide" blue
+$cs-warning: #f39c12; // "Orange Pumpkin" orange
+$cs-danger: #e74c3c; // "Juicy Orange 515" more red
+
+$cs-aux-primary: #95a5a6; //"Dark greyish cyan" grey
+$cs-aux-success: #0f7864; // "Dark cyan" cyan
+
+$cs-bg-primary: #ecf0f1; //  "Light greyish cyan" light grey
+$cs-bg-success: #3be6c4; // "Bright cyan" bright cyan
+$cs-bg-terminal: darken($cs-bg-primary, 10%);
+
+$cs-maintext: #212529; // "Very dark (mostly black) blue" black
+$cs-lighttext: rgba(0, 0, 0, .5);
+$cs-whitetext: #fff; // White
+
+$cs-font: Lato, Roboto, Arial;
