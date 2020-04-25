@@ -29,14 +29,12 @@ tt {
 }
 
 a {
-  color: $cs-info;
+  color: $cs-primary;
+  font-weight: bold;
 }
 
-footer {
-  a {
-    font-size: 0.8em;
-    color: $cs-success;
-  }
+a:hover {
+  color: $cs-success;
 }
 
 :target::before {

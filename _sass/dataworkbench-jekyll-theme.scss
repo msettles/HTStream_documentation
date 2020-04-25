@@ -103,6 +103,9 @@ div.nav1 ul li
     color: $cs-info;
 }
 
+.contibuter-icons a:hover {
+ color: $cs-success;
+}
 .contibuter-icons .iconify {
     width: 20px;
     height: 20px;
@@ -118,6 +121,10 @@ div.nav1 ul li
 
 .header-icons a {
     color: $cs-info;
+}
+
+.header-icons a:hover {
+  color: $cs-success;
 }
 
 .header-icons ul {
