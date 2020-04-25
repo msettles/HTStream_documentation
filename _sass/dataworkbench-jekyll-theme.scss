@@ -89,6 +89,26 @@ div.nav1 ul li
   line-height: 4em;
 }
 
+.contibuter-icons {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.contibuter-icons li {
+    list-style-type: none;
+    display:inline;
+}
+.contibuter-icons a {
+    color: $cs-info;
+}
+
+.contibuter-icons .iconify {
+    width: 20px;
+    height: 20px;
+    vertical-align: -4;
+}
+
 .header-icons li {
     float: right;
     padding: 5px;
@@ -96,8 +116,15 @@ div.nav1 ul li
     list-style-type: none;
 }
 
+.header-icons a {
+    color: $cs-info;
+}
+
 .header-icons ul {
     margin-right: 30px;
 }
 
-.iconify { width: 24px; height: 24px; }
+.header-icons .iconify {
+    width: 24px;
+    height: 24px;
+}
