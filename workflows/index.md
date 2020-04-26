@@ -63,6 +63,26 @@ Note: hts_LengthFilter is also an application that discards reads.
 
 ## A simple workflow to trim adapters from paired-end reads.
 
+
+```mermaid
+graph LR
+    hts_AdapterTrimmer(hts_AdapterTrimmer)
+
+click hts_AdapterTrimmer "../applications/hts_AdapterTrimmer.html" "hts_AdapterTrimmer documentation page."
+```
+
+```bash
+hts_AdapterTrimmer -L sample1.json -N "trim adapters" \  
+    -1 sample1_S1_L001_R1_001.fastq.gz \  
+    -2 sample1_S1_L001_R1_001.fastq.gz \  
+    -f sample1_preprocessed  
+```
+
+This pipeline trims adapters with hts_AdapterTrimmer. The prefix to the preprocessed sequence is sample1_preprocessed. All of the stats from the application is in sample1.json for review.
+
+But wouldn't it be nice to QA the sample before and after adapter trimming. To add a read stats to our workflow.
+{:.info}
+
 ```mermaid
 graph LR
     hts_Stats1((hts_Stats)) --> hts_AdapterTrimmer(hts_AdapterTrimmer) -->  hts_Stats2((hts_Stats))
@@ -84,7 +104,7 @@ hts_Stats -A sample1.json -N "final Stats" \
 This pipeline first runs hts_Stats to record the original read quality statistics, then trims adapters, and finally runs hts_Stats again to record the final read quality statistics. The input files are only read in once in the first application and the prefix to the preprocessed sequence is sample1_preprocessed. All of the stats from each application are in sample1.json for review.
 
 But remember hts_AdapterTrimmer only perform basepair trimming (trims adapters) and could produce very short, near 0 length reads. To add a read length filter of 50bp to our workflow.
-{:.warning}
+{:.info}
 
 ```mermaid
 graph LR
