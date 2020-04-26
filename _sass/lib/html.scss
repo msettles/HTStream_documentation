@@ -29,12 +29,11 @@ tt {
 }
 
 a {
-  color: $cs-primary;
-  font-weight: bold;
+  color: $cs-aux-success;
 }
 
 a:hover {
-  color: $cs-success;
+  color: $cs-aux-primary;
 }
 
 :target::before {
