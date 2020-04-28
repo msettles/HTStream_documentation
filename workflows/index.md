@@ -33,12 +33,14 @@ click hts_SuperDeduper "../applications/hts_SuperDeduper.html" "hts_SuperDeduper
 ```mermaid
 graph TD
     hts_AdapterTrimmer(hts_AdapterTrimmer)
+    hts_CutTrim(hts_CutTrim)
     hts_NTrimmer(hts_NTrimmer)
     hts_Primers(hts_Primers)
     hts_PolyATTrim(hts_PolyATTrim)
     hts_QWindowTrim(hts_QWindowTrim)
 
 click hts_AdapterTrimmer "../applications/hts_AdapterTrimmer.html" "hts_AdapterTrimmer documentation page."
+click hts_CutTrim "../applications/hts_CutTrim.html" "hts_CutTrim documentation page."
 click hts_NTrimmer "../applications/hts_NTrimmer.html" "hts_NTrimmer documentation page."
 click hts_Primers "../applications/hts_Primers.html" "hts_Primers documentation page."
 click hts_PolyATTrim "../applications/hts_PolyATTrim.html" "hts_PolyATTrim documentation page."
