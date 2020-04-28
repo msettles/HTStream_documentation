@@ -1,5 +1,5 @@
 ---
-title: hts_NTrimmer
+title: hts_CutTrim
 order: 2
 suborder: 5
 ---

@@ -1,7 +1,7 @@
 ---
 title: hts_SuperDeduper
 order: 3
-suborder: 12
+suborder: 13
 ---
 
 hts_NTrimmer trims reads to the longest subsequence that contains no Ns.
