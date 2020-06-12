@@ -27,7 +27,7 @@ conda install -c bioconda htstream
 
 ### Prerequisites:
 - Cmake 3.2 or greater.
-- GCC 4.8.1 or greater (or Clang 3.3 or greater)
+- GCC 4.8 - 4.9.x or >= 5.3 (or Clang 3.3 or greater)
 - Boost 1.56 or greater including the following
     - libboost-dev
     - libboost-system-dev
