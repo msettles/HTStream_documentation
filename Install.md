@@ -27,6 +27,7 @@ conda install -c bioconda htstream
 
 ### Prerequisites:
 - Cmake 3.2 or greater.
+- GCC 4.8 - 4.9.x or >= 5.3 (or Clang 3.3 or greater)
 - Boost 1.56 or greater including the following
     - libboost-dev
     - libboost-system-dev
@@ -49,9 +50,9 @@ brew install boost
 
 Alternatively Boost can be installed from source:
 ```bash
-wget -O 1_60.tar.bz2 https://sourceforge.net/projects/boost/files/boost/1.60.0/boost_1_60_0.tar.bz2/download
-tar --bzip2 -xf 1_60.tar.bz2
-cd boost_1_60_0
+wget https://dl.bintray.com/boostorg/release/1.65.1/source/boost_1_65_1.tar.bz2
+tar --bzip2 -xf boost_1_65_1.tar.bz2
+cd boost_1_65_1
 ./bootstrap.sh
 ./b2
 BOOST_INCLUDE=$(pwd)
@@ -62,9 +63,9 @@ BOOST_INCLUDE_LIB=$(pwd)/stage/lib
 
 Downloading the current release version
 ```bash
-wget -O HTStream-v1.2.0-release.zip https://github.com/ibest/HTStream/archive/v1.2.0-release.zip
-unzip HTStream-v1.2.0-release.zip
-cd HTStream-1.2.0-release
+wget -O HTStream-v1.3.1-release.zip https://github.com/ibest/HTStream/archive/v1.3.1-release.zip
+unzip HTStream-v1.3.1-release.zip
+cd HTStream-1.3.1-release
 ```
 
 **OR** Downloading the current development version
