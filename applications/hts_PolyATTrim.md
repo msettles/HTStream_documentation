@@ -1,7 +1,7 @@
 ---
 title: hts_PolyATTrim
 order: 3
-suborder: 7
+suborder: 8
 ---
 
 hts_NTrimmer trims reads to the longest subsequence that contains no Ns.

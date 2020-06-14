@@ -69,3 +69,26 @@ pre.highlight {
     background-color: $cs-bg-terminal;
   }
 }
+
+table {
+  table-layout: auto;
+  width: 100%;
+  thead {
+      color: $cs-success;
+      font-weight: bold;
+      border-bottom: 1px solid $cs-warning
+  }
+  tr {
+    td {
+      padding-left: 20px;
+      border: 1px solid black;
+    }
+  }
+}
+
+
+table {
+    a:not(.btn) {
+      text-decoration: none;
+    }
+}

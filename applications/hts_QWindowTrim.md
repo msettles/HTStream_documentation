@@ -1,7 +1,7 @@
 ---
 title: hts_QWindowTrim
 order: 3
-suborder: 9
+suborder: 10
 ---
 
 hts_NTrimmer trims reads to the longest subsequence that contains no Ns.

@@ -1,7 +1,7 @@
 ---
 title: hts_LengthFilter
 order: 3
-suborder: 4
+suborder: 5
 ---
 
 hts_NTrimmer trims reads to the longest subsequence that contains no Ns.
